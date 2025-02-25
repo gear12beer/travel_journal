@@ -1,6 +1,10 @@
+import globeLogo from "../assets/globe.png"
 function Header() {
     return (
-        <h1>I'm the header component!</h1>
+        <header>
+            <img src={globeLogo} alt="globe icon"/>
+            <h1>Travel Journal</h1>
+        </header>
     )
 }
 
